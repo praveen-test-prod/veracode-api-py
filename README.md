@@ -10,6 +10,7 @@ Install from pypi:
     pip install veracode-api-py
 
 ### Authenticating from a developer machine
+
 Save Veracode API credentials in `~/.veracode/credentials`
 
     [default]
