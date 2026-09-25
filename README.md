@@ -4,14 +4,16 @@ Python helper library for working with the Veracode APIs. Handles retries, pagin
 
 Not an official Veracode product. Heavily based on original work by [CTCampbell](https://github.com/ctcampbell).
 
+
+
 ## Setup
 Install from pypi:
 
     pip install veracode-api-py
 
 ### Authenticating from a developer machine
+Save Veracode API credentials in `~/.veracode/credentials'
 
-Save Veracode API credentials in `~/.veracode/credentials`
 
     [default]
     veracode_api_key_id = <YOUR_API_KEY_ID>
@@ -41,6 +43,7 @@ You can find sample scripts for some APIs in the [Samples folder](https://github
 ## Docs
 
 For detailed documentation on the available methods, please see the [veracode-api-py docs](https://github.com/veracode/veracode-api-py/blob/main/docs/docs.md).
+
 
 ## Notes
 
